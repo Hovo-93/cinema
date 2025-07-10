@@ -1,13 +1,13 @@
 # 🎬 Cinema  API
 
 
-Users can:
+Swagger Ui can:
 - View available rooms
 - See movie schedules per room
 - View available and booked seats per schedule
 - Book seats for a selected movie session
 
-Admins can:
+AdminPanel:
 - Manage rooms, movies, schedules, seats, and bookings via admin panel (sqladmin)
 
 ---
@@ -60,3 +60,8 @@ Run the application
 ```bash
   python app/manage.py run
 ```
+Swagger UI
+http://localhost:34046/docs	
+
+Admin Panel (support CRUD operations)
+http://localhost:34046/admin
